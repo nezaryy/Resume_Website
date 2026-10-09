@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+    max-width: 85%; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    text-align: center; 
+    background: #1b252c;
+    padding: 40px; 
+    border-radius: 20px; 
+    box-shadow: 0 12px 28px rgba(255, 196, 0, 0.199); 
+
+
+        opacity: 0;
+    transform: translateY(40px);
+  
+
+    animation: fadeIn 1s ease-out forwards;
+}
+
+    @keyframes fadeIn {
+    to {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
